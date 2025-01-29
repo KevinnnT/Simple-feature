@@ -1,0 +1,90 @@
+body {
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", serif;
+    background-image: url(images/Background_image.svg);
+    background-color: #121826;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #ffff;
+    text-align: center;
+    font-size: 40px;
+    max-width: 90%;
+}
+
+h2 {
+    text-align: center;
+    color: #D2D5DA;
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 90%;
+}
+
+section {
+    height: 445px;
+    width: 72rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.container1, .container2, .container3 {
+    background-color: #212936;
+    width: 290px;
+    padding: 40px 20px 40px 20px;
+    height: auto;
+    border-radius: 15px;
+    color: #ffff;
+    
+}
+
+
+.container1 span, .container2 span, .container3 span {
+    padding: 12px;
+    background-color: #FCEED8;
+    border-radius: 15px;
+    
+}
+
+.container2 span {
+    background-color: #DEE9FC;
+}
+
+.container3 span {
+    background-color: #FBE5E6;
+}
+
+.container1 img, .container2 img, .container3 img {
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.container1 p, .container2 p, .container3 p {
+    font-weight: 300;
+}
+
+@media (max-width: 900px) {
+    section {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    h1, h2 {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .container1, .container2, .container3 {
+        width: 90%;
+        max-width: 350px;
+    }
+}
