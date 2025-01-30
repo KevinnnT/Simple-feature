@@ -45,6 +45,11 @@ section {
     
 }
 
+.container1:hover, .container2:hover, .container3:hover {
+    box-shadow: 1px 1px 15px rgb(221, 221, 221);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
 
 .container1 span, .container2 span, .container3 span {
     padding: 12px;
